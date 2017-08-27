@@ -1,0 +1,17 @@
+{
+  "name": "wxchangba-cli",
+  "version": "0.0.0",
+  "repository": "git+https://github.com/fritx/wxchangba-cli.git",
+  "main": "api.js",
+  "bin": {
+    "wxchangba": "cli.js"
+  },
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "lame": "^1.2.4",
+    "minimist": "^1.2.0",
+    "request": "^2.81.0",
+    "speaker": "git+https://github.com/Streampunk/node-speaker.git",
+    "stream-to-promise": "^2.2.0"
+  }
+}
